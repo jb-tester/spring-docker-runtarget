@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="SpringDockerRuntargetApplication on target" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <module name="spring-docker-runtarget" />
+    <target name="eclipse-temurin:23-jre" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springdockerruntarget.SpringDockerRuntargetApplication" />
+    <option name="VM_PARAMETERS" value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
