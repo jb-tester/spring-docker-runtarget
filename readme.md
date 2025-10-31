@@ -4,6 +4,8 @@
 2. start debug RC 'remote debug'
 3. invoke http request
 
-result: debugger stops at breakpoint, Spring Debugger staff is initialized, but no Spring stuff is available
-
-with `Attach Debugger...` - no Spring debugger at all
+Problems:
+Spring Debugger works, but not for the configuration properties:
+ - the application.* files appear 'not loaded'
+ - the properties evaluation doesn't work
+ - the inlays for the actual property values are not shown

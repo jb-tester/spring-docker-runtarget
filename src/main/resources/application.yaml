@@ -1,6 +1,8 @@
 spring:
   application:
     name: spring-docker-runtarget
+  profiles:
+    active: night
   jpa:
     hibernate:
       ddl-auto: none
@@ -11,3 +13,17 @@ spring:
   sql:
     init:
       mode: always
+
+---
+spring:
+  config:
+    activate:
+      on-profile: day
+greeting: good morning
+
+---
+spring:
+  config:
+    activate:
+      on-profile: night
+greeting: good evening
